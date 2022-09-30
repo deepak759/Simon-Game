@@ -13,7 +13,7 @@ $(document).keypress(function (e) {
       setTimeout(() => {
         randomMusic();
       }, 500);
-      $("h1").text("Level" + ++level);
+      $("h1").text("Level " + ++level);
     } else {
       $("h1").text("You loose the match");
       setTimeout(function () {
